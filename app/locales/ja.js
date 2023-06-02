@@ -178,7 +178,7 @@ App.addLocale({
     button_send_to_back: '最背面へ移動',
     button_help: 'ヘルプ',
     button_preference: '設定',
-    button_about: 'Thinreportsについて',
+    button_about: 'について',
     button_go_to_forum: 'ディスカッション',
     button_feedback: '問題の報告',
     button_translation: '翻訳に協力する',

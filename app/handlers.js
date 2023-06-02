@@ -7,7 +7,7 @@ const handlers = {};
 handlers.layoutOpen = (callback) => {
   const filenames = dialog.showOpenDialogSync({
     filters: [
-      {name: 'Thinreports Layout File', extensions: ['tlf']}
+      {name: 'Layout File', extensions: ['tlf']}
     ],
     properties: ['openFile']
   });
@@ -34,7 +34,7 @@ handlers.layoutSave = (callback, data, attrs) => {
 handlers.layoutSaveAs = (callback, data) => {
   const filename = dialog.showSaveDialogSync({
     filters: [
-      {name: 'Thinreports Layout File', extensions: ['tlf']}
+      {name: 'Layout File', extensions: ['tlf']}
     ]
   });
 
